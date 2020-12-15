@@ -1,0 +1,22 @@
+{
+  "name": "graphql-scaffolding",
+  "version": "1.0.0",
+  "description": "graphql startup file structure",
+  "main": "App.js",
+  "scripts": {
+    "start": "nodemon --ext js,graphql App.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "@graphql-tools/graphql-file-loader": "^6.2.6",
+    "@graphql-tools/load": "^6.2.5",
+    "@graphql-tools/schema": "^7.1.2",
+    "apollo-server-express": "^2.19.0",
+    "express": "^4.17.1",
+    "graphql": "^15.4.0"
+  },
+  "author": "Xinor",
+  "license": "MIT"
+}
